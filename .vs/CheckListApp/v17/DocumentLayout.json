@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio 2022\\Proyectos\\CheckListApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0236A614-8A42-4D9B-8528-405D9FFFD67C}|CheckListApp\\CheckListApp.csproj|d:\\visual studio 2022\\proyectos\\checklistapp\\checklistapp\\checklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0236A614-8A42-4D9B-8528-405D9FFFD67C}|CheckListApp\\CheckListApp.csproj|solutionrelative:checklistapp\\checklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0236A614-8A42-4D9B-8528-405D9FFFD67C}|CheckListApp\\CheckListApp.csproj|d:\\visual studio 2022\\proyectos\\checklistapp\\checklistapp\\checklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0236A614-8A42-4D9B-8528-405D9FFFD67C}|CheckListApp\\CheckListApp.csproj|solutionrelative:checklistapp\\checklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checklist.cs",
+              "DocumentMoniker": "D:\\Visual Studio 2022\\Proyectos\\CheckListApp\\CheckListApp\\Checklist.cs",
+              "RelativeDocumentMoniker": "CheckListApp\\Checklist.cs",
+              "ToolTip": "D:\\Visual Studio 2022\\Proyectos\\CheckListApp\\CheckListApp\\Checklist.cs",
+              "RelativeToolTip": "CheckListApp\\Checklist.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T03:00:03.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Checklist.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Visual Studio 2022\\Proyectos\\CheckListApp\\CheckListApp\\Checklist.cs",
+              "RelativeDocumentMoniker": "CheckListApp\\Checklist.cs",
+              "ToolTip": "D:\\Visual Studio 2022\\Proyectos\\CheckListApp\\CheckListApp\\Checklist.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CheckListApp\\Checklist.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T02:41:21.356Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
