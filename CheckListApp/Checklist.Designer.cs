@@ -28,60 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Checklist));
+            this.check_Dieciseis = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Area = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_Cargo = new System.Windows.Forms.TextBox();
+            this.txt_Colaborador = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dt_Fecha = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txt_Hostname = new System.Windows.Forms.TextBox();
+            this.txt_Modelo = new System.Windows.Forms.TextBox();
+            this.txt_Placa = new System.Windows.Forms.TextBox();
+            this.cb_Marca = new System.Windows.Forms.ComboBox();
+            this.txt_Procesador = new System.Windows.Forms.TextBox();
+            this.txt_Almacenamiento = new System.Windows.Forms.TextBox();
+            this.txt_MemoriaRam = new System.Windows.Forms.TextBox();
+            this.txt_Serial = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.check_Doce = new System.Windows.Forms.CheckBox();
+            this.check_Diez = new System.Windows.Forms.CheckBox();
+            this.check_Nueve = new System.Windows.Forms.CheckBox();
+            this.check_Tres = new System.Windows.Forms.CheckBox();
+            this.check_Dos = new System.Windows.Forms.CheckBox();
+            this.check_Ocho = new System.Windows.Forms.CheckBox();
+            this.check_Siete = new System.Windows.Forms.CheckBox();
+            this.check_Cinco = new System.Windows.Forms.CheckBox();
+            this.check_Cuatro = new System.Windows.Forms.CheckBox();
+            this.check_Seis = new System.Windows.Forms.CheckBox();
+            this.check_Once = new System.Windows.Forms.CheckBox();
+            this.check_Uno = new System.Windows.Forms.CheckBox();
+            this.check_Quince = new System.Windows.Forms.CheckBox();
+            this.check_Trece = new System.Windows.Forms.CheckBox();
+            this.check_Catorce = new System.Windows.Forms.CheckBox();
+            this.btn_Descargar = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // check_Dieciseis
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(371, 486);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(138, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Realización de BackUp";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.check_Dieciseis.AutoSize = true;
+            this.check_Dieciseis.Location = new System.Drawing.Point(371, 486);
+            this.check_Dieciseis.Name = "check_Dieciseis";
+            this.check_Dieciseis.Size = new System.Drawing.Size(138, 17);
+            this.check_Dieciseis.TabIndex = 28;
+            this.check_Dieciseis.Text = "Realización de BackUp";
+            this.check_Dieciseis.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -92,12 +94,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Área";
             // 
-            // textBox1
+            // txt_Area
             // 
-            this.textBox1.Location = new System.Drawing.Point(58, 71);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 20);
-            this.textBox1.TabIndex = 2;
+            this.txt_Area.Location = new System.Drawing.Point(58, 71);
+            this.txt_Area.Name = "txt_Area";
+            this.txt_Area.Size = new System.Drawing.Size(180, 20);
+            this.txt_Area.TabIndex = 1;
             // 
             // label2
             // 
@@ -127,19 +129,19 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Colaborador";
             // 
-            // textBox2
+            // txt_Cargo
             // 
-            this.textBox2.Location = new System.Drawing.Point(58, 100);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 20);
-            this.textBox2.TabIndex = 6;
+            this.txt_Cargo.Location = new System.Drawing.Point(58, 100);
+            this.txt_Cargo.Name = "txt_Cargo";
+            this.txt_Cargo.Size = new System.Drawing.Size(180, 20);
+            this.txt_Cargo.TabIndex = 3;
             // 
-            // textBox3
+            // txt_Colaborador
             // 
-            this.textBox3.Location = new System.Drawing.Point(337, 71);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(345, 20);
-            this.textBox3.TabIndex = 7;
+            this.txt_Colaborador.Location = new System.Drawing.Point(337, 71);
+            this.txt_Colaborador.Name = "txt_Colaborador";
+            this.txt_Colaborador.Size = new System.Drawing.Size(345, 20);
+            this.txt_Colaborador.TabIndex = 2;
             // 
             // label5
             // 
@@ -150,12 +152,12 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Fecha";
             // 
-            // dateTimePicker1
+            // dt_Fecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(337, 100);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 9;
+            this.dt_Fecha.Location = new System.Drawing.Point(337, 100);
+            this.dt_Fecha.Name = "dt_Fecha";
+            this.dt_Fecha.Size = new System.Drawing.Size(200, 20);
+            this.dt_Fecha.TabIndex = 4;
             // 
             // label6
             // 
@@ -204,66 +206,67 @@
             this.label10.TabIndex = 14;
             this.label10.Text = "Marca";
             // 
-            // textBox4
+            // txt_Hostname
             // 
-            this.textBox4.Location = new System.Drawing.Point(84, 164);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(180, 20);
-            this.textBox4.TabIndex = 15;
+            this.txt_Hostname.Location = new System.Drawing.Point(84, 164);
+            this.txt_Hostname.Name = "txt_Hostname";
+            this.txt_Hostname.Size = new System.Drawing.Size(180, 20);
+            this.txt_Hostname.TabIndex = 5;
             // 
-            // textBox6
+            // txt_Modelo
             // 
-            this.textBox6.Location = new System.Drawing.Point(84, 216);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(180, 20);
-            this.textBox6.TabIndex = 17;
+            this.txt_Modelo.Location = new System.Drawing.Point(84, 216);
+            this.txt_Modelo.Name = "txt_Modelo";
+            this.txt_Modelo.Size = new System.Drawing.Size(180, 20);
+            this.txt_Modelo.TabIndex = 7;
             // 
-            // textBox7
+            // txt_Placa
             // 
-            this.textBox7.Location = new System.Drawing.Point(84, 242);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(180, 20);
-            this.textBox7.TabIndex = 18;
+            this.txt_Placa.Location = new System.Drawing.Point(84, 242);
+            this.txt_Placa.Name = "txt_Placa";
+            this.txt_Placa.Size = new System.Drawing.Size(180, 20);
+            this.txt_Placa.TabIndex = 8;
             // 
-            // comboBox1
+            // cb_Marca
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cb_Marca.FormattingEnabled = true;
+            this.cb_Marca.Items.AddRange(new object[] {
             "LENOVO",
             "HP",
             "DELL"});
-            this.comboBox1.Location = new System.Drawing.Point(84, 190);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(180, 21);
-            this.comboBox1.TabIndex = 19;
+            this.cb_Marca.Location = new System.Drawing.Point(84, 190);
+            this.cb_Marca.Name = "cb_Marca";
+            this.cb_Marca.Size = new System.Drawing.Size(180, 21);
+            this.cb_Marca.TabIndex = 6;
+            this.cb_Marca.Text = "Seleccionar";
             // 
-            // textBox5
+            // txt_Procesador
             // 
-            this.textBox5.Location = new System.Drawing.Point(409, 216);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(180, 20);
-            this.textBox5.TabIndex = 21;
+            this.txt_Procesador.Location = new System.Drawing.Point(409, 216);
+            this.txt_Procesador.Name = "txt_Procesador";
+            this.txt_Procesador.Size = new System.Drawing.Size(180, 20);
+            this.txt_Procesador.TabIndex = 11;
             // 
-            // textBox8
+            // txt_Almacenamiento
             // 
-            this.textBox8.Location = new System.Drawing.Point(409, 164);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(180, 20);
-            this.textBox8.TabIndex = 20;
+            this.txt_Almacenamiento.Location = new System.Drawing.Point(409, 164);
+            this.txt_Almacenamiento.Name = "txt_Almacenamiento";
+            this.txt_Almacenamiento.Size = new System.Drawing.Size(180, 20);
+            this.txt_Almacenamiento.TabIndex = 9;
             // 
-            // textBox9
+            // txt_MemoriaRam
             // 
-            this.textBox9.Location = new System.Drawing.Point(409, 190);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(180, 20);
-            this.textBox9.TabIndex = 22;
+            this.txt_MemoriaRam.Location = new System.Drawing.Point(409, 190);
+            this.txt_MemoriaRam.Name = "txt_MemoriaRam";
+            this.txt_MemoriaRam.Size = new System.Drawing.Size(180, 20);
+            this.txt_MemoriaRam.TabIndex = 10;
             // 
-            // textBox10
+            // txt_Serial
             // 
-            this.textBox10.Location = new System.Drawing.Point(409, 242);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(180, 20);
-            this.textBox10.TabIndex = 23;
+            this.txt_Serial.Location = new System.Drawing.Point(409, 242);
+            this.txt_Serial.Name = "txt_Serial";
+            this.txt_Serial.Size = new System.Drawing.Size(180, 20);
+            this.txt_Serial.TabIndex = 12;
             // 
             // label11
             // 
@@ -301,213 +304,216 @@
             this.label14.TabIndex = 27;
             this.label14.Text = "Serial";
             // 
-            // checkBox2
+            // check_Doce
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(372, 394);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(287, 17);
-            this.checkBox2.TabIndex = 28;
-            this.checkBox2.Text = "Validar acceso a aplicativos web (Odoo, intranet, etc...)";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.check_Doce.AutoSize = true;
+            this.check_Doce.Location = new System.Drawing.Point(372, 394);
+            this.check_Doce.Name = "check_Doce";
+            this.check_Doce.Size = new System.Drawing.Size(287, 17);
+            this.check_Doce.TabIndex = 24;
+            this.check_Doce.Text = "Validar acceso a aplicativos web (Odoo, intranet, etc...)";
+            this.check_Doce.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // check_Diez
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(372, 348);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(141, 17);
-            this.checkBox3.TabIndex = 29;
-            this.checkBox3.Text = "Licenciamiento de office";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.check_Diez.AutoSize = true;
+            this.check_Diez.Location = new System.Drawing.Point(372, 348);
+            this.check_Diez.Name = "check_Diez";
+            this.check_Diez.Size = new System.Drawing.Size(141, 17);
+            this.check_Diez.TabIndex = 22;
+            this.check_Diez.Text = "Licenciamiento de office";
+            this.check_Diez.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // check_Nueve
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(372, 325);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(143, 17);
-            this.checkBox4.TabIndex = 30;
-            this.checkBox4.Text = "Drivers y actualizaciones";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.check_Nueve.AutoSize = true;
+            this.check_Nueve.Location = new System.Drawing.Point(372, 325);
+            this.check_Nueve.Name = "check_Nueve";
+            this.check_Nueve.Size = new System.Drawing.Size(143, 17);
+            this.check_Nueve.TabIndex = 21;
+            this.check_Nueve.Text = "Drivers y actualizaciones";
+            this.check_Nueve.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // check_Tres
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(26, 371);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(156, 17);
-            this.checkBox5.TabIndex = 31;
-            this.checkBox5.Text = "Validar estado de la batería";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.check_Tres.AutoSize = true;
+            this.check_Tres.Location = new System.Drawing.Point(26, 371);
+            this.check_Tres.Name = "check_Tres";
+            this.check_Tres.Size = new System.Drawing.Size(156, 17);
+            this.check_Tres.TabIndex = 15;
+            this.check_Tres.Text = "Validar estado de la batería";
+            this.check_Tres.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // check_Dos
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(26, 348);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(138, 17);
-            this.checkBox6.TabIndex = 32;
-            this.checkBox6.Text = "Validar estado del disco";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.check_Dos.AutoSize = true;
+            this.check_Dos.Location = new System.Drawing.Point(26, 348);
+            this.check_Dos.Name = "check_Dos";
+            this.check_Dos.Size = new System.Drawing.Size(138, 17);
+            this.check_Dos.TabIndex = 14;
+            this.check_Dos.Text = "Validar estado del disco";
+            this.check_Dos.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // check_Ocho
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(26, 486);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(120, 17);
-            this.checkBox7.TabIndex = 33;
-            this.checkBox7.Text = "Comprobar Antivirus";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.check_Ocho.AutoSize = true;
+            this.check_Ocho.Location = new System.Drawing.Point(26, 486);
+            this.check_Ocho.Name = "check_Ocho";
+            this.check_Ocho.Size = new System.Drawing.Size(120, 17);
+            this.check_Ocho.TabIndex = 20;
+            this.check_Ocho.Text = "Comprobar Antivirus";
+            this.check_Ocho.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // check_Siete
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(26, 463);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(152, 17);
-            this.checkBox8.TabIndex = 34;
-            this.checkBox8.Text = "Comprobar puertos activos";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.check_Siete.AutoSize = true;
+            this.check_Siete.Location = new System.Drawing.Point(26, 463);
+            this.check_Siete.Name = "check_Siete";
+            this.check_Siete.Size = new System.Drawing.Size(152, 17);
+            this.check_Siete.TabIndex = 19;
+            this.check_Siete.Text = "Comprobar puertos activos";
+            this.check_Siete.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // check_Cinco
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(26, 417);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(163, 17);
-            this.checkBox9.TabIndex = 35;
-            this.checkBox9.Text = "Configuración de rendimiento";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.check_Cinco.AutoSize = true;
+            this.check_Cinco.Location = new System.Drawing.Point(26, 417);
+            this.check_Cinco.Name = "check_Cinco";
+            this.check_Cinco.Size = new System.Drawing.Size(163, 17);
+            this.check_Cinco.TabIndex = 17;
+            this.check_Cinco.Text = "Configuración de rendimiento";
+            this.check_Cinco.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // check_Cuatro
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(26, 394);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(272, 17);
-            this.checkBox10.TabIndex = 36;
-            this.checkBox10.Text = "Depuración de software sin licencia o desconocidos";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.check_Cuatro.AutoSize = true;
+            this.check_Cuatro.Location = new System.Drawing.Point(26, 394);
+            this.check_Cuatro.Name = "check_Cuatro";
+            this.check_Cuatro.Size = new System.Drawing.Size(272, 17);
+            this.check_Cuatro.TabIndex = 16;
+            this.check_Cuatro.Text = "Depuración de software sin licencia o desconocidos";
+            this.check_Cuatro.UseVisualStyleBackColor = true;
             // 
-            // checkBox11
+            // check_Seis
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(26, 440);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(153, 17);
-            this.checkBox11.TabIndex = 37;
-            this.checkBox11.Text = "Limpieza de caché y Temp";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.check_Seis.AutoSize = true;
+            this.check_Seis.Location = new System.Drawing.Point(26, 440);
+            this.check_Seis.Name = "check_Seis";
+            this.check_Seis.Size = new System.Drawing.Size(153, 17);
+            this.check_Seis.TabIndex = 18;
+            this.check_Seis.Text = "Limpieza de caché y Temp";
+            this.check_Seis.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // check_Once
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(372, 371);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(227, 17);
-            this.checkBox12.TabIndex = 38;
-            this.checkBox12.Text = "Validar funcionamiento de Outlook y teams";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.check_Once.AutoSize = true;
+            this.check_Once.Location = new System.Drawing.Point(372, 371);
+            this.check_Once.Name = "check_Once";
+            this.check_Once.Size = new System.Drawing.Size(227, 17);
+            this.check_Once.TabIndex = 23;
+            this.check_Once.Text = "Validar funcionamiento de Outlook y teams";
+            this.check_Once.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // check_Uno
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(26, 325);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(149, 17);
-            this.checkBox13.TabIndex = 39;
-            this.checkBox13.Text = "Usuario dentro de dominio";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.check_Uno.AutoSize = true;
+            this.check_Uno.Location = new System.Drawing.Point(26, 325);
+            this.check_Uno.Name = "check_Uno";
+            this.check_Uno.Size = new System.Drawing.Size(149, 17);
+            this.check_Uno.TabIndex = 13;
+            this.check_Uno.Text = "Usuario dentro de dominio";
+            this.check_Uno.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // check_Quince
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(371, 463);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(112, 17);
-            this.checkBox14.TabIndex = 40;
-            this.checkBox14.Text = "Biometrico ingreso";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.check_Quince.AutoSize = true;
+            this.check_Quince.Location = new System.Drawing.Point(371, 463);
+            this.check_Quince.Name = "check_Quince";
+            this.check_Quince.Size = new System.Drawing.Size(112, 17);
+            this.check_Quince.TabIndex = 27;
+            this.check_Quince.Text = "Biometrico ingreso";
+            this.check_Quince.UseVisualStyleBackColor = true;
             // 
-            // checkBox15
+            // check_Trece
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(372, 417);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(111, 17);
-            this.checkBox15.TabIndex = 41;
-            this.checkBox15.Text = "Bitlocker activado";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.check_Trece.AutoSize = true;
+            this.check_Trece.Location = new System.Drawing.Point(372, 417);
+            this.check_Trece.Name = "check_Trece";
+            this.check_Trece.Size = new System.Drawing.Size(111, 17);
+            this.check_Trece.TabIndex = 25;
+            this.check_Trece.Text = "Bitlocker activado";
+            this.check_Trece.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // check_Catorce
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(371, 440);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(250, 17);
-            this.checkBox16.TabIndex = 42;
-            this.checkBox16.Text = "Programas instalados (Logmein, OCS, estandar)";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.check_Catorce.AutoSize = true;
+            this.check_Catorce.Location = new System.Drawing.Point(371, 440);
+            this.check_Catorce.Name = "check_Catorce";
+            this.check_Catorce.Size = new System.Drawing.Size(250, 17);
+            this.check_Catorce.TabIndex = 26;
+            this.check_Catorce.Text = "Programas instalados (Logmein, OCS, estandar)";
+            this.check_Catorce.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_Descargar
             // 
-            this.button1.Location = new System.Drawing.Point(247, 527);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 48);
-            this.button1.TabIndex = 43;
-            this.button1.Text = "Descargar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_Descargar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Descargar.Location = new System.Drawing.Point(247, 527);
+            this.btn_Descargar.Name = "btn_Descargar";
+            this.btn_Descargar.Size = new System.Drawing.Size(142, 48);
+            this.btn_Descargar.TabIndex = 29;
+            this.btn_Descargar.Text = "Descargar";
+            this.btn_Descargar.UseVisualStyleBackColor = true;
+            this.btn_Descargar.Click += new System.EventHandler(this.button1_Click);
             // 
             // Checklist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(711, 587);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox16);
-            this.Controls.Add(this.checkBox15);
-            this.Controls.Add(this.checkBox14);
-            this.Controls.Add(this.checkBox13);
-            this.Controls.Add(this.checkBox12);
-            this.Controls.Add(this.checkBox11);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.btn_Descargar);
+            this.Controls.Add(this.check_Catorce);
+            this.Controls.Add(this.check_Trece);
+            this.Controls.Add(this.check_Quince);
+            this.Controls.Add(this.check_Uno);
+            this.Controls.Add(this.check_Once);
+            this.Controls.Add(this.check_Seis);
+            this.Controls.Add(this.check_Cuatro);
+            this.Controls.Add(this.check_Cinco);
+            this.Controls.Add(this.check_Siete);
+            this.Controls.Add(this.check_Ocho);
+            this.Controls.Add(this.check_Dos);
+            this.Controls.Add(this.check_Tres);
+            this.Controls.Add(this.check_Nueve);
+            this.Controls.Add(this.check_Diez);
+            this.Controls.Add(this.check_Doce);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txt_Serial);
+            this.Controls.Add(this.txt_MemoriaRam);
+            this.Controls.Add(this.txt_Procesador);
+            this.Controls.Add(this.txt_Almacenamiento);
+            this.Controls.Add(this.cb_Marca);
+            this.Controls.Add(this.txt_Placa);
+            this.Controls.Add(this.txt_Modelo);
+            this.Controls.Add(this.txt_Hostname);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.check_Dieciseis);
+            this.Controls.Add(this.dt_Fecha);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_Colaborador);
+            this.Controls.Add(this.txt_Cargo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_Area);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Checklist";
             this.Text = "Checklist";
             this.ResumeLayout(false);
@@ -517,49 +523,50 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox check_Dieciseis;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Area;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_Cargo;
+        private System.Windows.Forms.TextBox txt_Colaborador;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dt_Fecha;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txt_Hostname;
+        private System.Windows.Forms.TextBox txt_Modelo;
+        private System.Windows.Forms.TextBox txt_Placa;
+        private System.Windows.Forms.ComboBox cb_Marca;
+        private System.Windows.Forms.TextBox txt_Procesador;
+        private System.Windows.Forms.TextBox txt_Almacenamiento;
+        private System.Windows.Forms.TextBox txt_MemoriaRam;
+        private System.Windows.Forms.TextBox txt_Serial;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox check_Doce;
+        private System.Windows.Forms.CheckBox check_Diez;
+        private System.Windows.Forms.CheckBox check_Nueve;
+        private System.Windows.Forms.CheckBox check_Tres;
+        private System.Windows.Forms.CheckBox check_Dos;
+        private System.Windows.Forms.CheckBox check_Ocho;
+        private System.Windows.Forms.CheckBox check_Siete;
+        private System.Windows.Forms.CheckBox check_Cinco;
+        private System.Windows.Forms.CheckBox check_Cuatro;
+        private System.Windows.Forms.CheckBox check_Seis;
+        private System.Windows.Forms.CheckBox check_Once;
+        private System.Windows.Forms.CheckBox check_Uno;
+        private System.Windows.Forms.CheckBox check_Quince;
+        private System.Windows.Forms.CheckBox check_Trece;
+        private System.Windows.Forms.CheckBox check_Catorce;
+        private System.Windows.Forms.Button btn_Descargar;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }
 

@@ -1,0 +1,10 @@
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\bin\Release\CheckListApp.exe.config
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\bin\Release\CheckListApp.exe
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\bin\Release\CheckListApp.pdb
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\obj\Release\CheckListApp.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\obj\Release\CheckListApp.Checklist.resources
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\obj\Release\CheckListApp.Properties.Resources.resources
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\obj\Release\CheckListApp.csproj.GenerateResource.cache
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\obj\Release\CheckListApp.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\obj\Release\CheckListApp.exe
+D:\Visual Studio 2022\Proyectos\CheckListApp\CheckListApp\obj\Release\CheckListApp.pdb
